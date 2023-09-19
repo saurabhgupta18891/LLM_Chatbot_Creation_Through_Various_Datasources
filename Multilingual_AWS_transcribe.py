@@ -4,8 +4,8 @@ import json
 
 # Initialize AWS Transcribe client
 def transcribe_audio_to_text(audio_file_path, output_bucket):
-    aws_access_key_id = 'AKIAV6B6R4UDOUPFE3II'
-    aws_secret_access_key = '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'
+    aws_access_key_id = ''
+    aws_secret_access_key = ''
     region_name = 'ap-south-1'
     transcribe = boto3.client('transcribe', region_name=region_name,
                                   aws_access_key_id=aws_access_key_id,
