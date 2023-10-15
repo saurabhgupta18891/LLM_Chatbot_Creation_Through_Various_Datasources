@@ -9,7 +9,7 @@ from langchain.agents import create_pandas_dataframe_agent
 app = Flask(__name__)
 
 # Load CSV data and create a Pandas agent
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 # output_csv = r'C:\Users\Saurabh.Gupta\PycharmProjects\pythonProject1\excel_file_example.csv'
 # df = pd.read_csv(output_csv)
 # pd_agent = create_pandas_dataframe_agent(OpenAI(temperature=0), df, verbose=False)
