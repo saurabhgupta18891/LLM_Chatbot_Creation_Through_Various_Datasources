@@ -1,37 +1,3 @@
-# # Note: you need to be using OpenAI Python v0.27.0 for the code below to work
-# import openai
-# from pydub import AudioSegment
-# import os
-# from dotenv import load_dotenv
-#
-# load_dotenv()
-#
-# openai.api_key = os.environ.get('OPENAI_API_KEY', None)
-# from pathlib import Path
-# mp4_path = Path(r"C:\Users\Saurabh.Gupta\PycharmProjects\pythonProject1\Pre-Summit(G20 presidency).mp4")
-# mp4_audio = AudioSegment.from_file(mp4_path)
-#
-# song = AudioSegment.from_mp3(r"C:\Users\Saurabh.Gupta\PycharmProjects\pythonProject1\Pre-Summit(G20 presidency).mp4")
-# #
-# # # PyDub handles time in milliseconds
-# # ten_minutes = 10 * 60 * 1000
-# #
-# # first_10_minutes = song[:ten_minutes]
-# #
-# # first_10_minutes.export("good_morning_10.mp3", format="mp3")
-#
-# # audio_file= open(r"C:\Users\Saurabh.Gupta\PycharmProjects\pythonProject1\Pre-Summit(G20 presidency).mp4", "rb")
-# #
-# # transcript = openai.Audio.transcribe("whisper-1", audio_file)
-# #
-# # print(transcript["text"])
-
-
-
-
-
-
-
 import openai
 from pydub import AudioSegment
 import os
